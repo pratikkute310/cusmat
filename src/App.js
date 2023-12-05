@@ -3,6 +3,7 @@ import Chart from "react-apexcharts";
 import "./App.css";
 import Horizontalchart from "./Componetnt/Horizontalchart";
 import LineChart from "./Componetnt/Bar-Apex";
+import { MixChart } from "./Componetnt/mix-chart";
 function App() {
   const [state, setState] = useState({
     options: {
@@ -102,6 +103,9 @@ function App() {
                 width="60%"
               />
             </div>
+          </div>
+          <div className="col-md-6 col-lg-4 mb-4">
+                <MixChart/>
           </div>
           {/* <div className="col-md-6 col-lg-4 mb-4">
                 <LineChart/>

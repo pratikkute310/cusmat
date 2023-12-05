@@ -9,7 +9,7 @@ function LineChart() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Replace 'your_local_json_file.json' with the actual path to your local JSON file
+        
         const response = await fetch('E:\cusmat\public\csvjson.json');
         
         if (!response.ok) {
@@ -18,7 +18,7 @@ function LineChart() {
 
         const jsonData = await response.json();
 
-        // Calculate total sales for each category
+       
         const newCategorySales = {};
 
         jsonData.forEach(item => {
