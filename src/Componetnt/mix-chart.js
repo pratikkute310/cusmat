@@ -44,16 +44,11 @@ export const MixChart = () => {
                 text: 'Social Media'
             }
         }],
-        // legend: {
-        //     show: true,
-        //     position: 'right'
-        // },
-        title: {
-            text: 'Traffic Sources',
-            style: {
-                fontSize: 30
-            }
+        legend: {
+            show: true,
+            position: 'right'
         },
+        
         subtitle: {
             text: 'This chart shows Traffic data of Web, Social Media and Offline',
             style: {
